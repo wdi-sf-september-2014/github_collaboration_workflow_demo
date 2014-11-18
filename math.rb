@@ -1,15 +1,15 @@
-def adder x, y
+def add x, y
   x + y
 end
 
-def subtracter x, y
+def subtract x, y
   x - y
 end
 
-def multiplier x, y
+def multiply x, y
   x * y
 end
 
-def divider x, y
+def divide x, y
   x / y
 end
