@@ -1,15 +1,15 @@
-def add x, y
-  x + y
+def add i, j
+  i + j
 end
 
-def subtract x, y
-  x - y
+def subtract i, j
+  i - j
 end
 
-def multiply x, y
-  x * y
+def multiply i, j
+  i * j
 end
 
-def divide x, y
-  x / y
+def divide i, j
+  i / j
 end
