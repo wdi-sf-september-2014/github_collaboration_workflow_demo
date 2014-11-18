@@ -1,8 +1,8 @@
-def adder x, y
+def adder x,y
   x + y
 end
 
-def subtracter x, y
+def subtracter x,y
   x - y
 end
 
