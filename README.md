@@ -16,5 +16,11 @@ Most of the time merges will be resolved automatically via a fast forward.
 
 Sometimes, there will be conflicts. Conflicts occur when two people change the same lines of a file.
 
-* One person is in charge of conflict resolution
-  * That person goes to the person issuing the pull request to do the merge
+* The person opening the pull request, shouldn't open the pull request until they resolve the conflicts on their machine
+
+To add the upstream repo:
+```
+$ git remote add upstream [upstream/blessed repo url]
+```
+
+* [Resolving conflicts](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/)
